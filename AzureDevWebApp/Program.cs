@@ -22,7 +22,7 @@ namespace AzureDevWebApp
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
+            app.UseRouting();   
 
             app.UseAuthorization();
              
